@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ブブゼラ / Vuvuzela</title>
-  <meta name="description" content="ボカロP・作編曲家 ブブゼラ（Vuvuzela）のオフィシャルサイト。">
+  <title>お問い合わせ | ブブゼラ / Vuvuzela</title>
+  <meta name="description" content="ご依頼・ご質問のお問い合わせフォーム。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,7 +14,6 @@
 </head>
 <body>
 
-  <!-- ===== ナビゲーション（全ページ共通） ===== -->
   <header class="site-header">
     <nav class="nav" aria-label="メインメニュー">
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="メニューを開く">
@@ -23,7 +22,7 @@
         <span class="nav-toggle-bar"></span>
       </button>
       <ul class="nav-menu" id="nav-menu">
-        <li><a href="index.html" aria-current="page">トップページ</a></li>
+        <li><a href="index.html">トップページ</a></li>
         <li><a href="portfolio.html">作品集と実績</a></li>
         <li class="has-submenu">
           <a href="request-personal.html">ご依頼の詳細</a>
@@ -33,52 +32,47 @@
             <li><a href="request-corporate.html">法人の方</a></li>
           </ul>
         </li>
-        <li><a href="contact.html">お問い合わせ</a></li>
+        <li><a href="contact.html" aria-current="page">お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- ===== 本文 ===== -->
   <main class="page">
     <div class="card">
-      <p class="page-eyebrow">トップページ</p>
+      <p class="page-eyebrow">お問い合わせ</p>
 
-      <div class="profile">
-        <figure class="profile-figure">
-          <!-- プロフィール画像 -->
-          <img class="profile-photo" src="assets/avatar.png" alt="ブブゼラのプロフィール画像" width="600" height="600">
-          <h1 class="profile-name">ブブゼラ <span class="en">/ Vuvuzela</span></h1>
-          <p class="profile-meta">
-            ボカロP、作編曲家<br>
-            2000年生まれ<br>
-            神奈川県横浜市在住
-          </p>
-        </figure>
+      <h1 class="contact-heading">お問い合わせ</h1>
+      <p class="contact-lead">ご依頼以外のご質問やご相談も本フォームよりお気軽にお寄せください。</p>
 
-        <div class="profile-body">
-          <h2>作品</h2>
-          <p>「愛してあげられなくてごめんね」「実刑判決2年半」</p>
-          <p>「ハクチウム」「蜜柑色」 他</p>
+      <ul class="template">
+        <li class="title">↓ご依頼向け本文テンプレート</li>
+        <li>●依頼形態：（楽曲提供/編曲/MIX/マスタリング/inst制作/相談したい）</li>
+        <li>●予算：（¥○○〜○○/相談したい）</li>
+        <li>●希望納期：（〜○月○日/相談したい）</li>
+        <li>●詳細：</li>
+      </ul>
 
-          <h2>活動</h2>
-          <ul>
-            <li>コンピ「ウソのつづきかた（いよわ、原口沙輔、r-906 他）」マスタリング、楽曲参加</li>
-            <li>楽曲「たなかきさめ - LINKAGE」楽曲提供</li>
-            <li>楽曲「こはならむ - おとぎ話の主人公」編曲</li>
-            <li class="gap"></li>
-            <li>EP「ならばリアルはすべて優しく」楽曲制作</li>
-            <li>サンプルパック「ボカがち」企画、制作</li>
-            <li>他</li>
-          </ul>
-        </div>
+      <!-- ▼▼▼ Googleフォームの埋め込み ▼▼▼
+           Googleフォームの編集画面 →右上「送信」→「&lt; &gt;」(HTMLを埋め込む) を開くと
+           <iframe src="https://docs.google.com/forms/d/e/........./viewform?embedded=true" ...>
+           というコードが表示されます。その src の値を、下の iframe の src に貼り替えてください。
+           貼り替えるまでは枠が表示されません（下の案内文は貼り替え後に削除してOKです）。 -->
+      <div class="gform-embed">
+        <p class="gform-note">※ ここに Google フォームを埋め込みます。フォーム作成後、上記コメントの手順で src を設定してください。</p>
+        <iframe class="gform-frame"
+                src="GOOGLE_FORM_EMBED_URL"
+                width="640" height="900"
+                frameborder="0" marginheight="0" marginwidth="0"
+                title="お問い合わせフォーム" loading="lazy">読み込んでいます…</iframe>
       </div>
+
+      <!-- メールアドレスはスパム対策のため JavaScript で生成します（HTMLソースには平文を含めません） -->
+      <p class="contact-mail">Mail: <span id="email-link">上のフォームよりお問い合わせください</span></p>
     </div>
   </main>
 
-  <!-- ===== フッター（全ページ共通） ===== -->
   <footer class="site-footer">
     <div class="social">
-      <!-- ▼ href を各SNSのURLに差し替えてください -->
       <a href="https://x.com/yametoketteba" aria-label="X (Twitter)" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg>
       </a>
